@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #141520;
+}
+
+.left_bar {
+  height: 100vh;
+  width: 300px;
+  border-right: 2px solid #2d2f3d;
+}
+
+.left_bar .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 40px;
+  margin-top: 120px;
+}
+
+.left_bar .inner .Heading {
+  color: grey;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.left_bar .inner a {
+  margin-top: 15px;
+  text-decoration: none;
+  color: #c3c5da;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-size: 14px;
+}
+
+.left_bar .inner a:hover {
+  color: #fff;
+}
+
+.left_bar .inner .inner_set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 80px;
+}
+
+.contenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenter .Main {
+  width: 65%;
+  height: 100vh;
+  border-right: 2px solid #2d2f3d;
+}
+
+.contenter .crypto_side {
+  width: 100%;
+  height: 90vh;
+  border-bottom: 2px solid #2d2f3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-y: scroll;
+}
+
+.contenter .crypto_side .Test_Crypto {
+  width: 90%;
+  height: 65px;
+  margin-top: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+  border-radius: 12px;
+}
+
+.contenter .crypto_side .Test_Crypto:hover {
+  background-color: #008dff;
+}
+
+.contenter .crypto_side .Test_Crypto .bitcoin {
+  color: gold;
+  font-size: 40px;
+}
+
+.contenter .crypto_side .Test_Crypto .pri_na {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenter .crypto_side .Test_Crypto .crypto_name {
+  color: #fff;
+  font-weight: 500;
+  font-size: 19px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.contenter .crypto_side .Test_Crypto p {
+  margin: 0;
+}
+
+.contenter .crypto_side .Test_Crypto .prices {
+  color: #65697c;
+  font-weight: 800;
+  font-size: 13px;
+  word-spacing: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.contenter .crypto_side .Test_Crypto .cenebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 270px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.contenter .crypto_side .Test_Crypto .curr_image {
+  margin-right: 15px;
+  width: 40px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #424250 #141520;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #141520;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #424250;
+  border-radius: 3px;
+  border: 2px none #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
